@@ -5,6 +5,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.utils import ImageReader
 import io
 import pytesseract
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 import re
 
 app = Flask(__name__)
