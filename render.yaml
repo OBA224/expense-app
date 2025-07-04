@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: expense-app
-    env: python
-    buildCommand: ./build.sh
-    startCommand: gunicorn app:app
-
